@@ -3,7 +3,7 @@ probalkozasok = 0
 generaltszam = int(randint(1, 25))
 print('Szám legenerálva.')
 
-while probalkozasok <= 5:
+while probalkozasok < 5:
     tipp = int(input('\nÍrja be a tippét: '))
     probalkozasok += 1
     print(f'Még {5 - probalkozasok} próbálkozása maradt.')
