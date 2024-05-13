@@ -1,0 +1,79 @@
+body{background-color: rgb(243, 243, 219);}
+
+    h2{text-align: center;
+        font-size: 40px;
+        color:#774342;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 30px;
+        margin: 10px 2%;
+        color:#774342}
+     p, h3{
+        font-size: 22px;
+        margin: 20px 5%;
+        color:darkslategrey;
+        text-align: justify;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .kozeprehelyezes {text-align: center;}
+    .kulsobehuzas1{margin: 30px 5%;}
+    .kulsobehuzas2{margin: 10px 2%}
+    .kulsobehuzas3{margin: 20px 5%;}
+    .jobbehuzas1{margin-right: 60%;}
+    .piroskeret1{border: 5px solid #F05E07; padding: 10px; width: 700px;}  
+    .belsobehuzas1{padding: 10px;}
+    .betumeret1{font-size: 20px}
+    .betumeret2{font-size: 25px}
+    .betumeret3{font-size: 30px}
+    .jobbszoveg{float: right;}
+    #hatterkekszin{background-color: aqua;}
+    #hatterpirosszin{background-color: tomato;}
+    #istallo{
+        width: auto;
+        height: 300px;
+    }
+    
+    img{
+        float: right;
+        width: 500px;
+        margin: 0px 200px;
+        border: 5px solid #DE7C27;
+        }
+     table{
+        border-collapse: collapse;
+        font-size: 25px;
+        margin: 20px 5%;
+        border: 10px solid #DE7C27}
+    th{
+        font-size: 27px;
+    }
+    td, th{ 
+        border: 5px solid #F09B59;
+        text-align: center;
+        padding: 10px;
+        }
+    ul{
+        list-style-type: square;
+        margin: 0px 5%;
+        }
+    a:visited{
+        color: #774342;
+    }
+    a:hover{
+        color:red
+    }
+    a:active{
+        color: #F08784;
+    }
+    a{
+        color: #F09506;
+    }
+
+#valogatogep{
+     width: auto;
+     height: 300px;
+     float: right;
+    }
