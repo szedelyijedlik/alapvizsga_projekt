@@ -1,4 +1,9 @@
-body{background-color: rgb(243, 243, 219);}
+body{background-color: rgb(243, 243, 219);
+    background-image: url(hatterkep.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
     h2{text-align: center;
         font-size: 40px;
@@ -9,28 +14,21 @@ body{background-color: rgb(243, 243, 219);}
         font-size: 30px;
         margin: 10px 2%;
         color:#774342}
-     p, h3{
+     p{
         font-size: 22px;
         margin: 20px 5%;
-        color:darkslategrey;
+        color:rgb(44, 75, 75);
         text-align: justify;
     }
-    h3{
-        font-size: 30px;
-    }
-    .kozeprehelyezes {text-align: center;}
     .kulsobehuzas1{margin: 30px 5%;}
     .kulsobehuzas2{margin: 10px 2%}
     .kulsobehuzas3{margin: 20px 5%;}
-    .jobbehuzas1{margin-right: 60%;}
-    .piroskeret1{border: 5px solid #F05E07; padding: 10px; width: 700px;}  
+
     .belsobehuzas1{padding: 10px;}
-    .betumeret1{font-size: 20px}
-    .betumeret2{font-size: 25px}
+ 
     .betumeret3{font-size: 30px}
-    .jobbszoveg{float: right;}
-    #hatterkekszin{background-color: aqua;}
-    #hatterpirosszin{background-color: tomato;}
+
+
     #istallo{
         width: auto;
         height: 300px;
@@ -38,15 +36,19 @@ body{background-color: rgb(243, 243, 219);}
     
     img{
         float: right;
-        width: 500px;
+        width: auto;
         margin: 0px 200px;
         border: 5px solid #DE7C27;
+        height: 300px;
         }
      table{
         border-collapse: collapse;
         font-size: 25px;
         margin: 20px 5%;
-        border: 10px solid #DE7C27}
+        border: 10px solid #DE7C27;
+        float: left
+    }
+     
     th{
         font-size: 27px;
     }
@@ -77,3 +79,18 @@ body{background-color: rgb(243, 243, 219);}
      height: 300px;
      float: right;
     }
+
+.csirke{
+    width: auto;
+    height: 300px;
+    float: right;
+}
+
+.dolt{
+    font-style: italic;
+}
+
+.kiemelt{
+    font-weight: bold;
+    text-decoration: underline;
+}
