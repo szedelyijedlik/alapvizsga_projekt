@@ -1,0 +1,96 @@
+body{background-color: rgb(243, 243, 219);
+    background-image: url(hatterkep.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+    h2{text-align: center;
+        font-size: 40px;
+        color:#774342;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 30px;
+        margin: 10px 2%;
+        color:#774342}
+     p{
+        font-size: 22px;
+        margin: 20px 5%;
+        color:rgb(44, 75, 75);
+        text-align: justify;
+    }
+    .kulsobehuzas1{margin: 30px 5%;}
+    .kulsobehuzas2{margin: 10px 2%}
+    .kulsobehuzas3{margin: 20px 5%;}
+
+    .belsobehuzas1{padding: 10px;}
+ 
+    .betumeret3{font-size: 30px}
+
+
+    #istallo{
+        width: auto;
+        height: 300px;
+    }
+    
+    img{
+        float: right;
+        width: auto;
+        margin: 0px 200px;
+        border: 5px solid #DE7C27;
+        height: 300px;
+        }
+     table{
+        border-collapse: collapse;
+        font-size: 25px;
+        margin: 20px 5%;
+        border: 10px solid #DE7C27;
+        float: left
+    }
+     
+    th{
+        font-size: 27px;
+    }
+    td, th{ 
+        border: 5px solid #F09B59;
+        text-align: center;
+        padding: 10px;
+        }
+    ul{
+        list-style-type: square;
+        margin: 0px 5%;
+        }
+    a:visited{
+        color: #774342;
+    }
+    a:hover{
+        color:red
+    }
+    a:active{
+        color: #F08784;
+    }
+    a{
+        color: #F09506;
+    }
+
+#valogatogep{
+     width: auto;
+     height: 300px;
+     float: right;
+    }
+
+.csirke{
+    width: auto;
+    height: 300px;
+    float: right;
+}
+
+.dolt{
+    font-style: italic;
+}
+
+.kiemelt{
+    font-weight: bold;
+    text-decoration: underline;
+}
