@@ -24,5 +24,5 @@ print("3. feladat:\n\tFájl létrehozva.")
 
 print("4. feladat:\t")
 for sz in szavazokorok:
-    if sz.valasztokszama > 1500:
-        print(f'\tCím: {sz.cim} \tVálasztók száma: {sz.valasztokszama}')
+    if sz.valasztokszama >= 1550:
+        print(f'\tCím: {sz.cim}')
